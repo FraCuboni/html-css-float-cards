@@ -34,18 +34,17 @@ header>h1{
     padding-left: 10px;
 }
 .contacts>div{
-    text-align: left;
     color: white;
+    text-align: left;
     width: 100%;
     display: inline-block;
     line-height: 20px;
-    margin: calc(100% / 9 - 20px);
+    margin-top: calc(35px / 2);
 }
 .contacts :first-child{
     font-size: 18px;
     font-weight: 500;
 }
-
 .img{
     width: 130px;
     float: left;
