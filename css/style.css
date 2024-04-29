@@ -1,5 +1,30 @@
+/* BASE */
 *{
     box-sizing: border-box;
     margin: 0;
     text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+/* HEADER */
+/* SOTTO-HEADER */
+/* ETICHETTE PROFILI */
+
+.container{
+    display: inline-block;
+    float: none;
+    background-color: blue;
+    width: calc(100% / 3);
+    height: 130px;
+}
+.contacts{
+    width: calc(100% - 130px);
+}
+.contacts>div{
+    text-align: left;
+}
+
+.img{
+    width: 130px;
+    float: left;
+    max-width: 100%;
 }
