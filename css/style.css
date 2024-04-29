@@ -10,43 +10,53 @@
 body{
     margin: 30px 100px 0;
 }
+
 /* HEADER */
 header>h1{
     padding: 20px 0 50px;
 }
 /* SOTTO-HEADER */
+p{
+    margin: 0 0 10px;
+}
+
 /* ETICHETTE PROFILI */
 
 .container{
     display: inline-block;
     float: none;
-    background-color: blue;
-    width: calc(100% / 3 - 60px);
-    height: 130px;
+    background-color: #13263A;
+    width: calc(100% / 3 - 40px);
+    height: 100px;
     float: left;
-    margin: 30px;
+    margin: 30px 20px;
 }
+
 .contacts{
-    width: calc(100% - 130px);
+    width: calc(100% - 100px);
     height: 100%;
     float: right;
     
-    padding-left: 10px;
 }
+
 .contacts>div{
     color: white;
     text-align: left;
+    float: left;
     width: 100%;
     display: inline-block;
     line-height: 20px;
-    margin-top: calc(35px / 2);
+    padding-left: 10px;
+    margin-top: calc(33px / 3);
+
 }
+
 .contacts :first-child{
     font-size: 18px;
     font-weight: 500;
 }
+
 .img{
-    width: 130px;
+    width: 100px;
     float: left;
-    max-width: 100%;
 }
